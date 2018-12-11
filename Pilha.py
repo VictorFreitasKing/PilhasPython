@@ -81,5 +81,5 @@ class Pilha():
 
     def pop (self):
         temp = self.__topo.conteúdo
-        del[self]
+        self.__delitem__()
         return temp
